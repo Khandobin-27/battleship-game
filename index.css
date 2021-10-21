@@ -1,6 +1,6 @@
 
 body {
-	background: url(/assets/battleships.jpg) no-repeat center center fixed; 
+	background: url(battleships.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -46,13 +46,31 @@ form {
 	position: absolute;
 	bottom: 100px;
 	right: 40px;
-	padding: 15px;
+	padding: 10px;
 	background-color: rgba(4, 73, 94, 0.922);
+	border-radius: 7px;
 }
 form input {
 	background-color: #fff;
 	border-color: #fff;
+	border-radius: 5px;
 	font-size: 1em;
+	transition: .5s;
+}
+
+#fireButton {
+	text-transform: uppercase;
+	background-color: rgba(4, 73, 94, 0.922);
+	color: white;
+	padding: .18em;
+	border-radius: 6px;
+	margin-left: .5rem;
+	border: 2px solid rgba(255, 255, 255, 0.644);
+	/* font-weight: bold; */
+}
+
+#fireButton:hover {
+	transform: scale(1.5);
 }
 .white {
 	background-color: rgba(255, 255, 255, 0.582);
