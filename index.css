@@ -1,0 +1,68 @@
+
+body {
+	background: url(/assets/battleships.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+div#messageArea {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+    color: rgb(231, 223, 208);
+    font-size: 3rem;
+	font-weight: bold;
+	text-decoration: underline;
+    
+}
+.hit {
+	background-color: rgba(255, 15, 15, 0.966);
+}
+.miss {
+	background-color: rgba(17, 152, 194, 0.966);
+}
+table {
+	border-spacing: 0px; 
+	border: 2px solid black;
+}
+td {
+	width: 2.2em;
+	height: 2.2em;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-weight: 700;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+form {
+	position: absolute;
+	bottom: 100px;
+	right: 40px;
+	padding: 15px;
+	background-color: rgba(4, 73, 94, 0.922);
+}
+form input {
+	background-color: #fff;
+	border-color: #fff;
+	font-size: 1em;
+}
+.white {
+	background-color: rgba(255, 255, 255, 0.582);
+}
+
+.opacity {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.363);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
