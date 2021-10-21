@@ -1,5 +1,4 @@
 # battleship-game
-
 ![Game Screenshot](/assets/screenshot-1.png)
 
 This game was written back in 2019 year, when I just "jumped" into the web development.
